@@ -1,0 +1,91 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+body {
+    background: rgb(19, 19, 19);
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.card {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: #115ff4;
+    text-align: center;
+    font-size: 15px;
+    height: 80px;
+    overflow:hidden;
+
+ } */
+  
+.card:hover {
+    background-color: #060ce9;
+    transform: translateY(-3px) scale(1.1);
+ }
+
+.hidden{
+
+
+}
+
+.reveal{
+
+
+}
+
+.answer{
+  background-color: #28a200;
+
+}
+
+.answer:hover{
+  background-color: #28a200;
+}
+
+
+.grid{
+  display:grid;
+  gap:1rem;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.topGrid{
+  display: grid;
+  gap:1rem;
+  gid-template-column: 1fr;
+  margin: 10px;
+}
+
+h1{
+  color: white;
+  font-size: 3em;
+  margin: 0;
+  text-align: center;
+}
+
+input{
+color: #fff;
+background-color:  #8d2ab5;
+margin-top:20px;
+font-weight: 400; 
+line-height: 1.5;
+text-align: center;
+border: 1px solid transparent;
+padding: 6px 12px;
+font-size: 16px;
+border-radius: .25rem;
+}
+
+input:hover{
+  background-color: #74119c;
+}
+
