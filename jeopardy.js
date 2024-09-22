@@ -119,7 +119,7 @@ async function game(){
             $('.grid').append(newQdiv);
         }
     }
-    console.log(categories);
+
 
 
 }
